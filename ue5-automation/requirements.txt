@@ -1,0 +1,5 @@
+# Unreal Engine 5 Python Automation
+# Python 3.7+ required
+
+# GUI는 tkinter를 사용하므로 별도 설치 불필요 (Python 기본 포함)
+
