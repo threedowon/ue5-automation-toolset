@@ -19,6 +19,11 @@ class UnrealAutomationGUI:
         self.root.geometry("800x600")
         self.root.resizable(True, True)
         
+        # 아이콘 설정
+        icon_path = os.path.join(os.path.dirname(__file__), '..', 'assets', 'icon.ico')
+        if os.path.exists(icon_path):
+            self.root.iconbitmap(icon_path)
+        
         # 변수
         self.project_content_path = tk.StringVar()
         self.root_folder_name = tk.StringVar(value="DOWON")
